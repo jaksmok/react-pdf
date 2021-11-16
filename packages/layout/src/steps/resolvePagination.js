@@ -118,7 +118,7 @@ const splitNodes = (height, contentArea, nodes) => {
 
       if (currentChild) currentChildren.push(currentChild);
       if (nextChild) nextChildren.push(nextChild);
-
+      console.log(currentChild, nextChild);
       continue;
     }
 
@@ -143,8 +143,8 @@ const splitView = (node, height, contentArea) => {
   );
 
   return [
-    assingChildren(currentChilds, currentNode),
-    assingChildren(nextChildren, nextNode),
+    currentChilds && currentChilds.length > 0 ? assingChildren(currentChilds, currentNode) : null,
+    nextChildren && nextChildren.length > 0 ? assingChildren(nextChildren, nextNode) : null,
   ];
 };
 

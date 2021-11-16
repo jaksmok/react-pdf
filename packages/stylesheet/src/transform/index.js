@@ -48,7 +48,6 @@ const transform = (container) => (styles) => {
 
     resolvedStyle[key] = transformed;
   }
-
   return resolvedStyle;
 };
 

@@ -62,6 +62,7 @@ declare namespace ReactPDF {
   interface NodeProps {
     id?: string;
     style?: Style | Style[];
+
     /**
      * Render component in all wrapped pages.
      * @see https://react-pdf.org/advanced#fixed-components
@@ -114,6 +115,8 @@ declare namespace ReactPDF {
      * @see https://react-pdf.org/components#page-wrapping
      */
     wrap?: boolean;
+
+    wrapStyle?: Style | Style[];
     /**
      * Enables debug mode on page bounding box.
      * @see https://react-pdf.org/advanced#debugging
@@ -408,7 +411,7 @@ declare namespace ReactPDF {
     React.PropsWithChildren<StopProps>
   > {}
 
-  interface DefsProps {}
+  interface DefsProps { }
 
   /**
    * The <Defs /> element is used to store graphical objects that will be used at a later time. Objects created inside a <Defs /> element are not rendered directly. To display them you have to reference them

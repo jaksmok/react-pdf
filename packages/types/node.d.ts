@@ -84,6 +84,7 @@ interface ViewNode {
   type: Primitive.View;
   style?: Style;
   props?: ViewProps;
+  wrapStyle?: Style;
   children?: (ViewNode | TextNode)[];
 }
 

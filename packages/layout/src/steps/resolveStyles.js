@@ -46,7 +46,7 @@ const resolveNodeStyles = (container) => (node) => {
 
   const children = node.children.map(resolveNodeStyles(container));
 
-  return Object.assign({}, node, { style, children });
+  return Object.assign({}, node, { style, props: { wrapStyle: stylesheet(container) }, children });
 };
 
 /**

@@ -111,6 +111,8 @@ declare namespace ReactPDF {
      * @see https://react-pdf.org/components#page-wrapping
      */
     wrap?: boolean;
+
+    wrapStyle?: Style | Style[];
     /**
      * Enables debug mode on page bounding box.
      * @see https://react-pdf.org/advanced#debugging

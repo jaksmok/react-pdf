@@ -23,6 +23,7 @@ const splitNode = (node: SafeNode, height: number) => {
       borderBottomWidth: 0,
       borderBottomLeftRadius: 0,
       borderBottomRightRadius: 0,
+      ...node.props?.wrapStyle,
     },
   });
 
@@ -45,6 +46,7 @@ const splitNode = (node: SafeNode, height: number) => {
       borderTopWidth: 0,
       borderTopLeftRadius: 0,
       borderTopRightRadius: 0,
+      ...node.props?.wrapStyle,
     },
   });
 

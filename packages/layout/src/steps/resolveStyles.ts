@@ -50,7 +50,11 @@ const resolveNodeStyles =
 
     const children = node.children.map(resolveNodeStyles(container));
 
-    return Object.assign({}, node, { style, children }) as SafeNode;
+    return Object.assign({}, node, {
+      style,
+      props: { ...node.props, wrapStyle: computeStyle(container, node) },
+      children,
+    }) as SafeNode;
   };
 
 /**

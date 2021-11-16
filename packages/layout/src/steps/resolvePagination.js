@@ -118,7 +118,6 @@ const splitNodes = (height, contentArea, nodes) => {
 
       if (currentChild) currentChildren.push(currentChild);
       if (nextChild) nextChildren.push(nextChild);
-      console.log(currentChild, nextChild);
       continue;
     }
 

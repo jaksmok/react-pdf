@@ -36,6 +36,7 @@ const transformStyle = (key, value, container) => {
 const transform = (container) => (style) => {
   if (!style) return style;
 
+
   const propsArray = Object.keys(style);
   const resolvedStyle = {};
 
@@ -46,7 +47,6 @@ const transform = (container) => (style) => {
 
     resolvedStyle[key] = transformed;
   }
-
   return resolvedStyle;
 };
 

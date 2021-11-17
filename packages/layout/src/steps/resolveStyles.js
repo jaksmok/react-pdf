@@ -21,6 +21,7 @@ const resolveNodeStyles = container => node =>
     R.when(isLink, R.evolve({ style: R.merge(LINK_STYLES) })),
     R.evolve({
       style: stylesheet(container),
+      props: { wrapStyle: stylesheet(container) },
       children: R.map(resolveNodeStyles(container)),
     }),
   )(node);

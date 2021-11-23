@@ -1,12 +1,12 @@
 {
-  "name": "@jaksmok/jaksmok-react-pdf",
-  "version": "2.0.8",
+  "name": "@jaksmok/react-pdf",
+  "version": "2.0.4",
   "license": "MIT",
   "homepage": "https://github.com/diegomura/react-pdf#readme",
   "main": "index.d.ts",
   "repository": {
     "type": "git",
-    "url": "git://github.com/jaksmok/jaksmok-react-pdf",
+    "url": "https://github.com/jaksmok/react-pdf.git",
     "directory": "packages/types"
   },
   "publishConfig": {

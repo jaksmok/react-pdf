@@ -1,6 +1,6 @@
 {
   "name": "@jakmsok-react-pdf/render",
-  "version": "2.0.15",
+  "version": "2.0.18",
   "license": "MIT",
   "author": "Diego Muracciole <diegomuracciole@gmail.com>",
   "homepage": "https://github.com/diegomura/react-pdf#readme",
@@ -17,9 +17,9 @@
     "watch": "rimraf ./lib && babel src --out-dir lib --watch"
   },
   "dependencies": {
-    "@jakmsok-react-pdf/primitives": "^2.0.1",
-    "@jakmsok-react-pdf/textkit": "^2.0.7",
-    "@jakmsok-react-pdf/types": "^2.0.7",
+    "@jakmsok-react-pdf/primitives": "^2.0.4",
+    "@jakmsok-react-pdf/textkit": "^2.0.10",
+    "@jakmsok-react-pdf/types": "^2.0.11",
     "abs-svg-path": "^0.1.1",
     "color-string": "^1.5.3",
     "normalize-svg-path": "^1.1.0",

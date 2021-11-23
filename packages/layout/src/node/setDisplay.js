@@ -1,4 +1,4 @@
-import Yoga from '@jakmsok-react-pdf/yoga';
+import Yoga from '@jaksmok-react-pdf/yoga';
 
 /**
  * Set display attribute to node's Yoga instance

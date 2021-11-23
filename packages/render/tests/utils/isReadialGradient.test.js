@@ -1,4 +1,4 @@
-import * as P from '@jakmsok-react-pdf/primitives';
+import * as P from '@jaksmok-react-pdf/primitives';
 import isRadialGradient from '../../src/utils/isRadialGradient';
 
 const ASSERTED_TYPE = P.RadialGradient;

@@ -1,10 +1,10 @@
 /* eslint-disable no-param-reassign */
 
 import * as R from 'ramda';
-import runHeight from '@jakmsok-react-pdf/textkit/lib/run/height';
-import runDescent from '@jakmsok-react-pdf/textkit/lib/run/descent';
-import advanceWidth from '@jakmsok-react-pdf/textkit/lib/run/advanceWidth';
-import ascent from '@jakmsok-react-pdf/textkit/lib/attributedString/ascent';
+import runHeight from '@jaksmok-react-pdf/textkit/lib/run/height';
+import runDescent from '@jaksmok-react-pdf/textkit/lib/run/descent';
+import advanceWidth from '@jaksmok-react-pdf/textkit/lib/run/advanceWidth';
+import ascent from '@jaksmok-react-pdf/textkit/lib/attributedString/ascent';
 
 import renderGlyphs from './renderGlyphs';
 import parseColor from '../utils/parseColor';

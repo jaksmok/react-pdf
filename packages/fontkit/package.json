@@ -1,5 +1,5 @@
 {
-  "name": "@jakmsok-react-pdf/fontkit",
+  "name": "@jaksmok-react-pdf/fontkit",
   "version": "2.0.10",
   "description": "An advanced font engine for Node and the browser. This package is fork from github.com/diegomura/react-pdf to add wrap style",
   "repository": {
@@ -26,7 +26,7 @@
   "author": "Devon Govett <devongovett@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "@jakmsok-react-pdf/unicode-properties": "^2.4.5",
+    "@jaksmok-react-pdf/unicode-properties": "^2.4.5",
     "brotli": "^1.2.0",
     "clone": "^1.0.4",
     "deep-equal": "^1.0.0",

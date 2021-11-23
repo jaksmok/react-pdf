@@ -1,5 +1,5 @@
 import * as R from 'ramda';
-import Yoga from '@jakmsok-react-pdf/yoga';
+import Yoga from '@jaksmok-react-pdf/yoga';
 
 import upperFirst from '../utils/upperFirst';
 

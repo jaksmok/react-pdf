@@ -1,4 +1,4 @@
-import * as P from '@jakmsok-react-pdf/primitives';
+import * as P from '@jaksmok-react-pdf/primitives';
 import isGroup from '../../src/utils/isGroup';
 
 const ASSERTED_TYPE = P.G;

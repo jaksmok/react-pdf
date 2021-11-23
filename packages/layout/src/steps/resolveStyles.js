@@ -1,6 +1,6 @@
 import * as R from 'ramda';
-import * as P from '@jakmsok-react-pdf/primitives';
-import stylesheet from '@jakmsok-react-pdf/stylesheet';
+import * as P from '@jaksmok-react-pdf/primitives';
+import stylesheet from '@jaksmok-react-pdf/stylesheet';
 
 const isLink = R.propEq('type', P.Link);
 

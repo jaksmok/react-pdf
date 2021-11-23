@@ -1,4 +1,4 @@
-import unicode from '@jakmsok-react-pdf/unicode-properties';
+import unicode from '@jaksmok-react-pdf/unicode-properties';
 import OTProcessor from './OTProcessor';
 
 export default class GlyphInfo {

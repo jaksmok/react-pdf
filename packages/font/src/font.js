@@ -2,7 +2,7 @@
 
 import isUrl from 'is-url';
 import fetch from 'cross-fetch';
-import fontkit from '@jakmsok-react-pdf/fontkit';
+import fontkit from '@jaksmok-react-pdf/fontkit';
 
 const FONT_WEIGHTS = {
   thin: 100,

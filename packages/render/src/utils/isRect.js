@@ -1,5 +1,5 @@
 import * as R from 'ramda';
-import * as P from '@jakmsok-react-pdf/primitives';
+import * as P from '@jaksmok-react-pdf/primitives';
 
 const isRect = R.propEq('type', P.Rect);
 

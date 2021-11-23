@@ -1,6 +1,6 @@
 import * as R from 'ramda';
-import * as P from '@jakmsok-react-pdf/primitives';
-import AttributedString from '@jakmsok-react-pdf/textkit/lib/attributedString';
+import * as P from '@jaksmok-react-pdf/primitives';
+import AttributedString from '@jaksmok-react-pdf/textkit/lib/attributedString';
 
 import { embedEmojis } from './emoji';
 import ignoreChars from './ignoreChars';

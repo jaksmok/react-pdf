@@ -1,10 +1,10 @@
 import * as R from 'ramda';
-import layoutEngine from '@jakmsok-react-pdf/textkit/lib/layout';
-import linebreaker from '@jakmsok-react-pdf/textkit/lib/engines/linebreaker';
-import justification from '@jakmsok-react-pdf/textkit/lib/engines/justification';
-import textDecoration from '@jakmsok-react-pdf/textkit/lib/engines/textDecoration';
-import scriptItemizer from '@jakmsok-react-pdf/textkit/lib/engines/scriptItemizer';
-import wordHyphenation from '@jakmsok-react-pdf/textkit/lib/engines/wordHyphenation';
+import layoutEngine from '@jaksmok-react-pdf/textkit/lib/layout';
+import linebreaker from '@jaksmok-react-pdf/textkit/lib/engines/linebreaker';
+import justification from '@jaksmok-react-pdf/textkit/lib/engines/justification';
+import textDecoration from '@jaksmok-react-pdf/textkit/lib/engines/textDecoration';
+import scriptItemizer from '@jaksmok-react-pdf/textkit/lib/engines/scriptItemizer';
+import wordHyphenation from '@jaksmok-react-pdf/textkit/lib/engines/wordHyphenation';
 
 import fontSubstitution from './fontSubstitution';
 import getAttributedString from './getAttributedString';

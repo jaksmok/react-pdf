@@ -1,5 +1,5 @@
 import * as R from 'ramda';
-import { Document, Svg } from '@jakmsok-react-pdf/primitives';
+import { Document, Svg } from '@jaksmok-react-pdf/primitives';
 
 const getZIndex = R.path(['style', 'zIndex']);
 

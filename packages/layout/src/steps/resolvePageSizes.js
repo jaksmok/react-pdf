@@ -1,5 +1,5 @@
 import * as R from 'ramda';
-import flatten from '@jakmsok-react-pdf/stylesheet/lib/flatten';
+import flatten from '@jaksmok-react-pdf/stylesheet/lib/flatten';
 
 import getPageSize from '../page/getSize';
 

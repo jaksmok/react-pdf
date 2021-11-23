@@ -1,4 +1,4 @@
-import * as P from '@jakmsok-react-pdf/primitives';
+import * as P from '@jaksmok-react-pdf/primitives';
 import isCircle from '../../src/utils/isCircle';
 
 const ASSERTED_TYPE = P.Circle;

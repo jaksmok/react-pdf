@@ -1,4 +1,4 @@
-import * as P from '@jakmsok-react-pdf/primitives';
+import * as P from '@jaksmok-react-pdf/primitives';
 import isPath from '../../src/utils/isPath';
 
 const ASSERTED_TYPE = P.Path;

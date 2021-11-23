@@ -1,5 +1,5 @@
 import * as R from 'ramda';
-import Yoga from '@jakmsok-react-pdf/yoga';
+import Yoga from '@jaksmok-react-pdf/yoga';
 
 /**
  * Set flex wrap attribute to node's Yoga instance

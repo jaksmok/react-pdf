@@ -1,4 +1,4 @@
-import unicode from '@jakmsok-react-pdf/unicode-properties';
+import unicode from '@jaksmok-react-pdf/unicode-properties';
 
 /**
  * This class is used when GPOS does not define 'mark' or 'mkmk' features

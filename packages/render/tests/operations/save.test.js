@@ -1,4 +1,4 @@
-import * as P from '@jakmsok-react-pdf/primitives';
+import * as P from '@jaksmok-react-pdf/primitives';
 
 import createCTX from '../ctx';
 import save from '../../src/operations/save';

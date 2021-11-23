@@ -1,4 +1,4 @@
-import AttributedString from '@jakmsok-react-pdf/textkit/lib/attributedString';
+import AttributedString from '@jaksmok-react-pdf/textkit/lib/attributedString';
 
 /**
  * Get lines width (if any)

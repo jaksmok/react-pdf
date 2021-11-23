@@ -1,5 +1,6 @@
 {
-  "name": "@jakmsok-react-pdf/root",
+  "private": "true",
+  "name": "@jaksmok-react-pdf/root",
   "version": "2.0.0",
   "license": "MIT",
   "author": "Diego Muracciole <diegomuracciole@gmail.com>",
@@ -9,13 +10,13 @@
     "packages/*"
   ],
   "scripts": {
-    "build": "lerna run build --ignore @jakmsok-react-pdf/yoga",
+    "build": "lerna run build --ignore @jaksmok-react-pdf/yoga",
     "watch": "lerna run watch --parallel",
     "bootstrap": "lerna bootstrap",
-    "prepublish": "lerna run build --ignore @jakmsok-react-pdf/yoga",
+    "prepublish": "lerna run build --ignore @jaksmok-react-pdf/yoga",
     "lint": "eslint packages",
     "test": "jest",
-    "examples": "lerna run start --scope @jakmsok-react-pdf/examples"
+    "examples": "lerna run start --scope @jaksmok-react-pdf/examples"
   },
   "devDependencies": {
     "@babel/cli": "^7.2.3",

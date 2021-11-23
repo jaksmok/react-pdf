@@ -1,7 +1,7 @@
 /* eslint-disable no-param-reassign */
 
 import * as R from 'ramda';
-import Yoga from '@jakmsok-react-pdf/yoga';
+import Yoga from '@jaksmok-react-pdf/yoga';
 
 import layoutText from './layoutText';
 import linesWidth from './linesWidth';

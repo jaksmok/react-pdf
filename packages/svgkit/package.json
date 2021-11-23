@@ -1,7 +1,7 @@
 {
   "name": "@jakmsok-react-pdf/svgkit",
   "license": "MIT",
-  "version": "2.0.4",
+  "version": "2.0.5",
   "main": "./lib/index.js",
   "repository": {
     "type": "git",
@@ -22,7 +22,7 @@
   ],
   "dependencies": {
     "@babel/runtime": "^7.4.3",
-    "@jakmsok-react-pdf/pdfkit": "^2.0.14",
+    "@jakmsok-react-pdf/pdfkit": "^2.0.15",
     "ramda": "^0.26.1"
   }
 }

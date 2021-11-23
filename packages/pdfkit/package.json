@@ -1,6 +1,6 @@
 {
   "name": "@jakmsok-react-pdf/pdfkit",
-  "version": "2.0.12",
+  "version": "2.0.13",
   "main": "lib/pdfkit.cjs.js",
   "module": "lib/pdfkit.es.js",
   "repository": {
@@ -28,8 +28,8 @@
     "lib"
   ],
   "dependencies": {
-    "@jakmsok-react-pdf/fontkit": "^2.0.7",
-    "@jakmsok-react-pdf/png-js": "^2.0.3",
+    "@jakmsok-react-pdf/fontkit": "^2.0.8",
+    "@jakmsok-react-pdf/png-js": "^2.0.4",
     "crypto-js": "^4.0.0"
   },
   "devDependencies": {

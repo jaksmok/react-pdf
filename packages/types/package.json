@@ -1,13 +1,15 @@
 {
-  "name": "@react-pdf/types",
+  "name": "@jaksmok/jaksmok-react-pdf",
   "version": "2.0.7",
   "license": "MIT",
-  "author": "Diego Muracciole <diegomuracciole@gmail.com>",
   "homepage": "https://github.com/diegomura/react-pdf#readme",
   "main": "index.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/diegomura/react-pdf.git",
+    "url": "git://github.com/jaksmok/jaksmok-react-pdf",
     "directory": "packages/types"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   }
 }

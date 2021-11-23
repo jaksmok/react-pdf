@@ -1,4 +1,4 @@
-import * as P from '@react-pdf/primitives';
+import * as P from '@jakmsok-react-pdf/primitives';
 import isText from '../../src/utils/isText';
 
 const ASSERTED_TYPE = P.Text;

@@ -1,5 +1,5 @@
 {
-  "name": "@react-pdf/image",
+  "name": "@jakmsok-react-pdf/image",
   "version": "2.0.4",
   "license": "MIT",
   "author": "Diego Muracciole <diegomuracciole@gmail.com>",
@@ -7,9 +7,10 @@
   "main": "lib/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/diegomura/react-pdf.git",
+    "url": "git://github.com/jaksmok/jaksmok-react-pdf",
     "directory": "packages/image"
   },
+  "description": "This package is fork from github.com/diegomura/react-pdf to add wrap style",
   "browser": {
     "./lib/index.js": "./lib/index.browser.js"
   },
@@ -19,7 +20,7 @@
     "watch": "rimraf ./lib && rollup -c -w"
   },
   "dependencies": {
-    "@react-pdf/png-js": "^2.0.3",
+    "@jakmsok-react-pdf/png-js": "^2.0.3",
     "cross-fetch": "^3.0.4"
   },
   "devDependencies": {

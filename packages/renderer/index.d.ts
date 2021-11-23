@@ -8,7 +8,7 @@ import {
   SourceObject,
   HyphenationCallback,
   SVGPresentationAttributes,
-} from '@react-pdf/types';
+} from '@jakmsok-react-pdf/types';
 
 declare namespace ReactPDF {
   interface Styles {

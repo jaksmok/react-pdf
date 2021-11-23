@@ -1,5 +1,5 @@
 {
-  "name": "@react-pdf/primitives",
+  "name": "@jakmsok-react-pdf/primitives",
   "version": "2.0.1",
   "license": "MIT",
   "author": "Diego Muracciole <diegomuracciole@gmail.com>",
@@ -7,9 +7,10 @@
   "main": "./src/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/diegomura/react-pdf.git",
+    "url": "git://github.com/jaksmok/jaksmok-react-pdf",
     "directory": "packages/primitives"
   },
+  "description": "This package is fork from github.com/diegomura/react-pdf to add wrap style",
   "scripts": {
     "test": "jest"
   },

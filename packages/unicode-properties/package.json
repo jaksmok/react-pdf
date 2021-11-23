@@ -1,16 +1,16 @@
 {
-  "name": "@react-pdf/unicode-properties",
+  "name": "@jakmsok-react-pdf/unicode-properties",
   "version": "2.4.2",
   "license": "MIT",
-  "description": "Provides fast access to unicode character properties",
   "author": "Devon Govett <devongovett@gmail.com>",
   "main": "lib/unicode-properties.cjs.js",
   "module": "lib/unicode-properties.es.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/diegomura/react-pdf.git",
+    "url": "git://github.com/jaksmok/jaksmok-react-pdf",
     "directory": "packages/unicode-properties"
   },
+  "description": "Provides fast access to unicode character properties. An advanced text layout framework. This package is fork from github.com/diegomura/react-pdf to add wrap style",
   "scripts": {
     "test": "jest",
     "build": "node generate.js && rollup -c",

@@ -1,5 +1,5 @@
 {
-  "name": "@react-pdf/layout",
+  "name": "@jakmsok-react-pdf/layout",
   "version": "2.0.21",
   "license": "MIT",
   "author": "Diego Muracciole <diegomuracciole@gmail.com>",
@@ -7,9 +7,10 @@
   "main": "lib/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/diegomura/react-pdf.git",
+    "url": "git://github.com/jaksmok/jaksmok-react-pdf",
     "directory": "packages/layout"
   },
+  "description": "This package is fork from github.com/diegomura/react-pdf to add wrap style",
   "scripts": {
     "test": "jest",
     "build": "rimraf ./lib && babel src --out-dir lib",
@@ -17,13 +18,13 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.6.2",
-    "@react-pdf/image": "^2.0.4",
-    "@react-pdf/pdfkit": "^2.0.12",
-    "@react-pdf/primitives": "^2.0.1",
-    "@react-pdf/stylesheet": "^2.0.13",
-    "@react-pdf/textkit": "^2.0.7",
-    "@react-pdf/types": "^2.0.7",
-    "@react-pdf/yoga": "^2.0.3",
+    "@jakmsok-react-pdf/image": "^2.0.4",
+    "@jakmsok-react-pdf/pdfkit": "^2.0.12",
+    "@jakmsok-react-pdf/primitives": "^2.0.1",
+    "@jakmsok-react-pdf/stylesheet": "^2.0.13",
+    "@jakmsok-react-pdf/textkit": "^2.0.7",
+    "@jakmsok-react-pdf/types": "^2.0.7",
+    "@jakmsok-react-pdf/yoga": "^2.0.3",
     "cross-fetch": "^3.0.4",
     "emoji-regex": "^8.0.0",
     "queue": "^6.0.1",

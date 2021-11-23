@@ -1,12 +1,13 @@
 {
-  "name": "@react-pdf/font",
+  "name": "@jakmsok-react-pdf/font",
   "version": "2.0.14",
   "license": "MIT",
   "author": "Diego Muracciole <diegomuracciole@gmail.com>",
   "homepage": "https://github.com/diegomura/react-pdf#readme",
+  "description": "This package is fork from github.com/diegomura/react-pdf to add wrap style",
   "repository": {
     "type": "git",
-    "url": "https://github.com/diegomura/react-pdf.git",
+    "url": "git://github.com/jaksmok/jaksmok-react-pdf",
     "directory": "packages/font"
   },
   "main": "lib/index.js",
@@ -19,8 +20,8 @@
     "watch": "rimraf ./lib && rollup -c -w"
   },
   "dependencies": {
-    "@react-pdf/fontkit": "^2.0.7",
-    "@react-pdf/types": "^2.0.7",
+    "@jakmsok-react-pdf/fontkit": "^2.0.7",
+    "@jakmsok-react-pdf/types": "^2.0.7",
     "cross-fetch": "^3.0.4",
     "is-url": "^1.2.4"
   },

@@ -1,5 +1,5 @@
 {
-  "name": "@react-pdf/render",
+  "name": "@jakmsok-react-pdf/render",
   "version": "2.0.15",
   "license": "MIT",
   "author": "Diego Muracciole <diegomuracciole@gmail.com>",
@@ -7,18 +7,19 @@
   "main": "lib/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/diegomura/react-pdf.git",
+    "url": "git://github.com/jaksmok/jaksmok-react-pdf",
     "directory": "packages/render"
   },
+  "description": "This package is fork from github.com/diegomura/react-pdf to add wrap style",
   "scripts": {
     "test": "jest",
     "build": "rimraf ./lib && babel src --out-dir lib",
     "watch": "rimraf ./lib && babel src --out-dir lib --watch"
   },
   "dependencies": {
-    "@react-pdf/primitives": "^2.0.1",
-    "@react-pdf/textkit": "^2.0.7",
-    "@react-pdf/types": "^2.0.7",
+    "@jakmsok-react-pdf/primitives": "^2.0.1",
+    "@jakmsok-react-pdf/textkit": "^2.0.7",
+    "@jakmsok-react-pdf/types": "^2.0.7",
     "abs-svg-path": "^0.1.1",
     "color-string": "^1.5.3",
     "normalize-svg-path": "^1.1.0",

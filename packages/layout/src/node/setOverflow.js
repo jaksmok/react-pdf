@@ -1,5 +1,5 @@
 import * as R from 'ramda';
-import Yoga from '@react-pdf/yoga';
+import Yoga from '@jakmsok-react-pdf/yoga';
 
 /**
  * Set overflow attribute to node's Yoga instance

@@ -1,15 +1,20 @@
 {
-  "name": "@jaksmok/jaksmok-react-pdf",
-  "version": "2.0.8",
+  "name": "@jakmsok-react-pdf/types",
+  "version": "2.0.7",
   "license": "MIT",
+  "author": "Diego Muracciole <diegomuracciole@gmail.com>",
   "homepage": "https://github.com/diegomura/react-pdf#readme",
   "main": "index.d.ts",
   "repository": {
     "type": "git",
-    "url": "git://github.com/jaksmok/jaksmok-react-pdf",
+    "url": "git+https://github.com/jaksmok/react-pdf.git",
     "directory": "packages/types"
   },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
+  "description": "This package is fork from github.com/diegomura/react-pdf to add wrap style",
+  "bugs": {
+    "url": "https://github.com/jaksmok/react-pdf/issues"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }

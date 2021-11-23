@@ -1,7 +1,6 @@
 {
-  "name": "@react-pdf/yoga",
+  "name": "@jakmsok-react-pdf/yoga",
   "version": "2.0.3",
-  "description": "Prebuilt yoga-layout package",
   "license": "MIT",
   "author": "Diego Muracciole <diegomuracciole@gmail.com>",
   "homepage": "https://github.com/diegomura/react-pdf#readme",
@@ -9,9 +8,10 @@
   "types": "index.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/diegomura/react-pdf.git",
+    "url": "git://github.com/jaksmok/jaksmok-react-pdf",
     "directory": "packages/yoga"
   },
+  "description": "Prebuilt yoga-layout package. This package is fork from github.com/diegomura/react-pdf to add wrap style",
   "scripts": {
     "test": "jest",
     "build": "./build.sh",

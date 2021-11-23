@@ -1,7 +1,7 @@
 {
   "name": "@jakmsok-react-pdf/textkit",
   "license": "MIT",
-  "version": "2.0.7",
+  "version": "2.0.9",
   "main": "./lib/index.js",
   "repository": {
     "type": "git",
@@ -23,7 +23,7 @@
   ],
   "dependencies": {
     "@babel/runtime": "^7.4.3",
-    "@jakmsok-react-pdf/unicode-properties": "^2.4.2",
+    "@jakmsok-react-pdf/unicode-properties": "^2.4.4",
     "hyphen": "^1.6.4",
     "ramda": "^0.26.1"
   }

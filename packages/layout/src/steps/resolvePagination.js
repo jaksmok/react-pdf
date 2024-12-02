@@ -97,7 +97,6 @@ const splitNodes = (height, contentArea, nodes) => {
 
     if (shouldSplit) {
       const [currentChild, nextChild] = split(child, height, contentArea);
-
       // All children are moved to the next page, it doesn't make sense to show the parent on the current page
       if (child.children.length > 0 && currentChild.children.length === 0) {
         // But if the current page is empty then we can just include the parent on the current page
@@ -142,8 +141,8 @@ const splitView = (node, height, contentArea) => {
   );
 
   return [
-    currentChilds && currentChilds.length > 0 ? assingChildren(currentChilds, currentNode) : null,
-    nextChildren && nextChildren.length > 0 ? assingChildren(nextChildren, nextNode) : null,
+    assingChildren(currentChilds, currentNode),
+    assingChildren(nextChildren, nextNode),
   ];
 };
 

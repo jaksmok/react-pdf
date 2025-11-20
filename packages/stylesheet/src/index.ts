@@ -1,4 +1,4 @@
-import { compose } from '@react-pdf/fns';
+import { compose } from '@jaksmok-react-pdf/fns';
 
 import flattenStyles from './flatten';
 import resolveMediaQueries from './mediaQueries';

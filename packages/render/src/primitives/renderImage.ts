@@ -1,5 +1,5 @@
-import { isNil } from '@react-pdf/fns';
-import { SafeImageNode } from '@react-pdf/layout';
+import { isNil } from '@jaksmok-react-pdf/fns';
+import { SafeImageNode } from '@jaksmok-react-pdf/layout';
 
 import clipNode from '../operations/clipNode';
 import embedImage from '../operations/embedImage';

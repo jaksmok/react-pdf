@@ -1,4 +1,4 @@
-import * as P from '@react-pdf/primitives';
+import * as P from '@jaksmok-react-pdf/primitives';
 
 import getDefs from './getDefs';
 import { SafeDefs, SafeNode, SafeSvgNode } from '../types';

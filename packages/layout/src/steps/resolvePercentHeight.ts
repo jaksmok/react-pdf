@@ -1,4 +1,4 @@
-import { isNil, matchPercent } from '@react-pdf/fns';
+import { isNil, matchPercent } from '@jaksmok-react-pdf/fns';
 
 import { SafeDocumentNode, SafeNode, SafePageNode } from '../types';
 

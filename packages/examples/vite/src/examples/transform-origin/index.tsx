@@ -1,5 +1,5 @@
 import React from 'react';
-import { Document, Page, View } from '@react-pdf/renderer';
+import { Document, Page, View } from '@jaksmok-react-pdf/renderer';
 
 const Box = ({ origin }) => (
   <View

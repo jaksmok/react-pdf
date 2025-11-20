@@ -1,5 +1,5 @@
-import { SafeStyle, Style } from '@react-pdf/stylesheet';
-import * as P from '@react-pdf/primitives';
+import { SafeStyle, Style } from '@jaksmok-react-pdf/stylesheet';
+import * as P from '@jaksmok-react-pdf/primitives';
 
 import { LineNode, SafeLineNode } from './line';
 import { PolylineNode, SafePolylineNode } from './polyline';

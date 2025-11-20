@@ -1,5 +1,5 @@
-import * as P from '@react-pdf/primitives';
-import { compose } from '@react-pdf/fns';
+import * as P from '@jaksmok-react-pdf/primitives';
+import { compose } from '@jaksmok-react-pdf/fns';
 
 import { Node } from '../types';
 

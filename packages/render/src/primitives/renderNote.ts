@@ -1,4 +1,4 @@
-import { SafeNoteNode } from '@react-pdf/layout';
+import { SafeNoteNode } from '@jaksmok-react-pdf/layout';
 
 import { Context } from '../types';
 

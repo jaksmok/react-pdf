@@ -1,4 +1,4 @@
-import { omit } from '@react-pdf/fns';
+import { omit } from '@jaksmok-react-pdf/fns';
 
 import setPadding from './setPadding';
 import { SafeNode } from '../types';

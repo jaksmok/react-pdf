@@ -1,4 +1,4 @@
-# @react-pdf/textkit
+# @jaksmok-react-pdf/textkit
 
 ## 6.0.0
 

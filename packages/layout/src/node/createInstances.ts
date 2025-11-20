@@ -1,5 +1,5 @@
-import { castArray } from '@react-pdf/fns';
-import * as P from '@react-pdf/primitives';
+import { castArray } from '@jaksmok-react-pdf/fns';
+import * as P from '@jaksmok-react-pdf/primitives';
 import React from 'react';
 
 import { Node } from '../types';

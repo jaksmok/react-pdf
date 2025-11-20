@@ -1,5 +1,5 @@
-import * as P from '@react-pdf/primitives';
-import FontStore from '@react-pdf/font';
+import * as P from '@jaksmok-react-pdf/primitives';
+import FontStore from '@jaksmok-react-pdf/font';
 
 import layoutText from '../text/layoutText';
 import { SafeNode, SafeSvgNode, SafeTextNode } from '../types';

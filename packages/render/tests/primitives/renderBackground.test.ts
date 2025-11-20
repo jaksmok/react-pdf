@@ -1,7 +1,7 @@
 import { describe, expect, test } from 'vitest';
 
-import * as P from '@react-pdf/primitives';
-import { Box, SafeNode } from '@react-pdf/layout';
+import * as P from '@jaksmok-react-pdf/primitives';
+import { Box, SafeNode } from '@jaksmok-react-pdf/layout';
 
 import createCTX from '../ctx';
 import renderBackground from '../../src/primitives/renderBackground';

@@ -1,6 +1,6 @@
-import * as P from '@react-pdf/primitives';
-import { omit, compose } from '@react-pdf/fns';
-import FontStore from '@react-pdf/font';
+import * as P from '@jaksmok-react-pdf/primitives';
+import { omit, compose } from '@jaksmok-react-pdf/fns';
+import FontStore from '@jaksmok-react-pdf/font';
 
 import isFixed from '../node/isFixed';
 import splitText from '../text/splitText';

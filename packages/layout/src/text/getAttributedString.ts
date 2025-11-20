@@ -1,6 +1,6 @@
-import * as P from '@react-pdf/primitives';
-import { Fragment, fromFragments } from '@react-pdf/textkit';
-import FontStore from '@react-pdf/font';
+import * as P from '@jaksmok-react-pdf/primitives';
+import { Fragment, fromFragments } from '@jaksmok-react-pdf/textkit';
+import FontStore from '@jaksmok-react-pdf/font';
 
 import { embedEmojis } from './emoji';
 import ignoreChars from './ignoreChars';

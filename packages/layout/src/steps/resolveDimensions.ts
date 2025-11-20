@@ -1,6 +1,6 @@
-import * as P from '@react-pdf/primitives';
-import { isNil, compose } from '@react-pdf/fns';
-import FontStore from '@react-pdf/font';
+import * as P from '@jaksmok-react-pdf/primitives';
+import { isNil, compose } from '@jaksmok-react-pdf/fns';
+import FontStore from '@jaksmok-react-pdf/font';
 
 import getMargin from '../node/getMargin';
 import getPadding from '../node/getPadding';

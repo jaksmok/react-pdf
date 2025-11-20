@@ -1,4 +1,4 @@
-import * as P from '@react-pdf/primitives';
+import * as P from '@jaksmok-react-pdf/primitives';
 
 interface StopProps {
   offset: string | number;

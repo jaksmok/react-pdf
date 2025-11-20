@@ -7,7 +7,7 @@ import {
   Text,
   Image,
   StyleSheet,
-} from '@react-pdf/renderer';
+} from '@jaksmok-react-pdf/renderer';
 import renderToImage from './renderComponent';
 
 const styles = StyleSheet.create({

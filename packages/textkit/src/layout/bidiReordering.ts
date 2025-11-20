@@ -1,5 +1,5 @@
 import bidiFactory from 'bidi-js';
-import { repeat } from '@react-pdf/fns';
+import { repeat } from '@jaksmok-react-pdf/fns';
 
 import stringLength from '../attributedString/length';
 import { AttributedString, Paragraph, Run } from '../types';

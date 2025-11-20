@@ -1,8 +1,8 @@
-import FontStore from '@react-pdf/font';
-import renderPDF from '@react-pdf/render';
-import PDFDocument from '@react-pdf/pdfkit';
-import layoutDocument from '@react-pdf/layout';
-import { upperFirst } from '@react-pdf/fns';
+import FontStore from '@jaksmok-react-pdf/font';
+import renderPDF from '@jaksmok-react-pdf/render';
+import PDFDocument from '@jaksmok-react-pdf/pdfkit';
+import layoutDocument from '@jaksmok-react-pdf/layout';
+import { upperFirst } from '@jaksmok-react-pdf/fns';
 
 import { omitNils } from './utils';
 import createRenderer from './renderer';

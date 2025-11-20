@@ -1,5 +1,5 @@
-import * as P from '@react-pdf/primitives';
-import FontStore from '@react-pdf/font';
+import * as P from '@jaksmok-react-pdf/primitives';
+import FontStore from '@jaksmok-react-pdf/font';
 import layoutEngine, {
   bidi,
   linebreaker,
@@ -10,7 +10,7 @@ import layoutEngine, {
   textDecoration,
   fromFragments,
   Fragment,
-} from '@react-pdf/textkit';
+} from '@jaksmok-react-pdf/textkit';
 
 import transformText from '../text/transformText';
 import {

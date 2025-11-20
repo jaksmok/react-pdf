@@ -6,7 +6,7 @@ import {
   View,
   StyleSheet,
   Font,
-} from '@react-pdf/renderer';
+} from '@jaksmok-react-pdf/renderer';
 
 import RobotoFont from '../../../public/Roboto-Regular.ttf';
 
